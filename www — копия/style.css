@@ -1,0 +1,53 @@
+p{
+color:#070e6e;
+}
+
+#contact_page{
+color: rgb(8, 146, 151);
+}
+
+.fontclass{
+    color: rgb(30, 210, 69);
+    font-family: Times;
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.textclass{
+    text-align: center;
+    line-height: 1.7;
+    text-decoration: underline;
+}
+
+.bgstyle{
+    background-color: rgba(100, 192, 235, 0.322);
+    background-image: url(/images/bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.wsstyle{
+    max-width: 800px; 
+    min-width: 500px;
+}
+
+/*Отступы*/
+.border{
+    border-top:2px solid black;
+    border-bottom:2px dotted black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+
+    padding: 30px 30px; /*Внутренние*/
+    margin: 40px 10px;  /*Внешние*/
+}
+
+.imgleft{
+    float: left;
+    margin-right: 20px;
+}
+
+._clr{
+    clear: both;
+}
